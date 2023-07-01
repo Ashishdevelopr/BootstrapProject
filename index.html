@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary" style="background-color:coral">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span>Digital Agency</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mt-3 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Web Development</a></li>
+               
+                  <li><a class="dropdown-item" href="#">Web Desiging</a></li>
+
+                  <li><a class="dropdown-item" href="#">App Development </a></li>
+
+                  <li><a class="dropdown-item" href="#">Facebook Ads</a></li>
+
+                  <li><a class="dropdown-item" href="#">SEO</a></li>
+
+                  <li><a class="dropdown-item" href="#">Youtube Automation</a></li>  
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">FAO</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- slider -->
+      <div id="carouselExampleCaptions" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner" style="height:500px;">
+          <div class="carousel-item active">
+            <img src="./Images/p5.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h6>Web Development</h6>
+              <p>Build your business presence on internet and get more customers</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height:500px;">
+            <img src="./Images/p1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h6>App Development</h6>
+              <p>App Development helps to get higer customer engagement: </p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height:500px;">
+            <img src="./Images/p2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h6>Facebook Ads</h6>
+              <p>It's an effective way to drive traffic from active users.</p>
+            </div>
+          </div>
+          
+            <div class="carousel-item" style="height:500px;">
+              <img src="./Images/p4.jpg" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h6>Search Engine Optimization</h6>
+                <p>Google only loves you when everyone else loves you first.</p>
+              </div>
+            </div>
+
+            <div class="carousel-item"style="height:500px;">
+                  <img src="./Images/p3.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h6>Youtube Automation</h6>
+                    <p>Make a passive income from Youtube Automation.</p>
+                  </div>
+                </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- text -->
+      <div class="row">
+        <div class="container-fluid">
+          <div class="col-12 text-center text-black">
+            <h6 class="h3 mt-5">
+              A Digital Marketing and Social Media Marketing Agency</h6>
+              <h6 class="h6 mb-5"> Increase Your Social Media Presence And Scale Your Business Faster​.</h6>
+            </h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- page 1 -->
+      <div class="row text-center justify-content-evenly">
+
+        <div class="col-md-3 mt-3">
+          <h1><i class="bi bi-file-code-fill text-danger"></i></h1>
+          <h6>Web Design & Development</h6>
+          <p>Be sure to reach out today about our amazing web design and development services and become the new kid on the block that everyone is talking about!</p>
+        </div>
+
+        <div class="col-md-3 mt-3">
+         <h1><i class="bi bi-google text-success"></i></h1>
+         <h6>Search Engine Optimization</h6>
+         <p>Stay top of mind with one of the most creative email marketing campaigns. We will manage your business email marketing campaign.</p>
+        </div>
+
+        <div class="col-md-3 mt-3">
+        <h1> <i class="bi bi-facebook text-primary"></i></h1>
+        <h6>Facebook Advertisment</h6>
+        <p>We can be your company voice with quality content. Our writing team will give your brand the voice it needs to stick out.</p>
+        </div>
+
+        <!-- line -->
+        <hr>
+
+        <!-- growth Page -->
+        <div class="row justify-content-evenly text-start pt-2 pb-3">
+          <div class="col-md-5 pb-3">
+            <img src="./Images/gr.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-md-5 pb-3">
+
+            <h6 class="mt-3">Web Development</h6>
+            <div class="progress">
+              <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mt-3">App Development</h6>
+            <div class="progress">
+              <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mt-3">Search Engine Optimization</h6>
+            <div class="progress">
+              <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="54" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mt-3">Facebook Ads</h6>
+            <div class="progress">
+              <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+            <h6 class="mt-3">Youtube Automation</h6>
+            <div class="progress">
+              <div class="progress-bar bg-primary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+
+          </div>
+        </div>
+
+        
+        <!-- contact us -->
+        <div class="row justify-content-evenly pt-4 pb-4 text-start" style="background-color: #f1f1f1;">
+          <div class="col-md-5 mb-5">
+            <h3 class="mb-4">Contact Form</h3>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+             
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+          </div>
+        <div class="col-md-5 mb-3">
+          <h3 class="mb-4">Address</h3>
+          1600 Amphitheatre Pkwy,<br>
+           Mountain View, CA 94043, <br>
+           United States<br>
+          <i class="bi bi-telephone"></i> +16502530000
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8188.921457035615!2d-122.08749412685984!3d37.4210455210576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fba02425dad8f%3A0x6c296c66619367e0!2sGoogleplex!5e0!3m2!1sen!2sin!4v1652211013609!5m2!1sen!2sin" style="width: 100%;" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+        </div>
+
+        <!-- FAO -->
+        <div class="row justify-content-evenly pt-5 pb-5">
+          <div class="col-md-10 mb-4">
+            <h3 class="mb-3">FAO</h3>
+
+            <div class="accordion accordion-flush border" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What is the importance of responsive design in web development?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-start">Responsive design is crucial in web development because it ensures that websites are accessible and user-friendly across different devices and screen sizes.
+                     It allows the content and layout of a website to automatically adjust and adapt to the device being used, providing an optimal viewing experience. This is essential in today's mobile-centric
+                      world, as users expect seamless browsing on smartphones, tablets, and desktop computers.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    What platforms or technologies do you specialize in for web development?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-start"> Our web development agency specializes in a wide range of platforms and technologies to meet our clients' diverse needs. We have expertise in popular content management systems 
+                    (CMS) such as WordPress, Drupal, and Joomla, as well as e-commerce platforms like Shopify and Magento. Additionally, we are skilled in frontend development using HTML, CSS, JavaScript, and frameworks like
+                     React and Angular. Our backend development expertise includes languages like PHP, Python, and Node.js, along with databases like MySQL and MongoDB.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     How long does it take to build a website?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body text-start">The timeline for building a website can vary depending on several factors such as the complexity of the project, the features and functionality required, the size of the website,
+                     and the availability of content and resources. A simple website with basic features can typically be built within a few weeks, while larger and more complex websites may take several months.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- footer-->
+        <div class="row justify-content-evenly pt-4 pb-4 bg-black text-white text-start">
+          <div class="col-md-3 pb-4">
+            <h5 class="pb-2">DigitalFoundr</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus culpa, est corporis dolorem, incidunt illum impedit quisquam aut perferendis repellat quos minus earum dolores! Libero.</p>
+          </div>
+
+          <div class="col-md-3 pb-2">
+            <h5 class="pb-2">Important links</h5>
+            <p>
+             <a href="#" class="link-light text-decoration-none">Home</a><br>
+              <a href="#" class="link-light text-decoration-none">Services</a><br>
+              <a href="#" class="link-light text-decoration-none">About Us</a> <br>
+              <a href="#" class="link-light text-decoration-none">FAO</a>
+             <a href="#" class="link-light text-decoration-none">Blogs</a>
+            </p>
+          </div>
+
+          <div class="col-md-3 pb-2">
+            <h5 class="pb-2"> Contact Us </h5>
+            Wisphering Plams Exculsive <br/>
+            Lokhandwala Kandivali (E) <br/>
+            Mumbai - 400101 <br/>
+          <i class="bi bi-telephone"></i> 8591413270
+              
+          </div>
+        </div>
+
+      <!-- copywrite -->
+      <div class="row p-2 bg-secondary text-white text-center">
+        <div class="col-12">
+          <p class="font-bold">Digital Agency website was crafted by me <a href="https://github.com/Ashishdevelopr" target="_blank" class="text-decoration-none text-black">@AshishDevelopr</a></p>
+        </div>
+      </div>
+        <!-- page1 end -->
+      </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>
