@@ -19,4 +19,4 @@ For more information, refer to the README file in the project folder.
 
 ## Website
 
-Check out the website: https://ashishdevelopr.github.io/WebAgency/
+Check out the website: https://ashishdevelopr.github.io/BootstrapProject/
